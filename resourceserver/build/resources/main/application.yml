@@ -1,7 +1,11 @@
 spring:
     application:
         name: resourceserver
-        
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: "jdbc:mysql://localhost:3306/USERSERVICE_NEW?autoreconnect=true?useUnicode=yes&characterEncoding=UTF-8"
+        password: "root"
+        username: "root"
 security:
     oauth2:
         resource:

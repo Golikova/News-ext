@@ -3,8 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="sourceWebSite" class="chrome_extencion.GoogleNewsParser" />
-    <bean id="googleSearcher" class="chrome_extencion.GoogleSearcher" />
-    <bean id="twitterSearcher" class="chrome_extencion.TwitterSearcher" />
+    <bean id="googleSearcher" class="chrome_extencion.apiCallers.GoogleSearcher" />
+    <bean id="twitterSearcher" class="chrome_extencion.parsers.TwitterParser" />
+    <bean id="vkSearcher" class="chrome_extencion.apiCallers.VKSearcher" />
+    <bean id="yandexSearcher" class="chrome_extencion.parsers.YandexParser" />
 
 </beans>
