@@ -1,4 +1,4 @@
-package com.talk2amareswaran.projects.resourceserver.config;
+package com.golikova.projects.resourceserver.config;
 
 import java.util.Map;
 
@@ -8,7 +8,7 @@ import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConv
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.stereotype.Component;
 
-import com.talk2amareswaran.projects.resourceserver.model.AccessTokenMapper;
+import com.golikova.projects.resourceserver.model.AccessTokenMapper;
 
 @Component
 public class JwtConverter extends DefaultAccessTokenConverter implements JwtAccessTokenConverterConfigurer {

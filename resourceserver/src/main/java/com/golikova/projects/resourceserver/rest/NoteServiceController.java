@@ -1,6 +1,6 @@
-package com.talk2amareswaran.projects.resourceserver.rest;
+package com.golikova.projects.resourceserver.rest;
 
-import com.talk2amareswaran.projects.resourceserver.model.UserData;
+import com.golikova.projects.resourceserver.model.UserData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -11,13 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.talk2amareswaran.projects.resourceserver.model.AccessTokenMapper;
+import com.golikova.projects.resourceserver.model.AccessTokenMapper;
 
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
 
 @RestController
 public class NoteServiceController {
-
 
 	@Autowired
 	JdbcTemplate jdbcTemplate;
@@ -33,9 +32,6 @@ public class NoteServiceController {
 		System.out.println("Запрос:"+userData.getSelection());
 		System.out.println("Name:"+accessTokenMapper.getName());
 		System.out.println("Email ID:"+accessTokenMapper.getUserName());
-
-		String query = userData.getSelection();
-
 
 		if(userData.getSelection() != null && !userData.getSelection().isEmpty()) {
 

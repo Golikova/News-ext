@@ -1,4 +1,4 @@
-package com.talk2amareswaran.projects.resourceserver.config;
+package com.golikova.projects.resourceserver.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

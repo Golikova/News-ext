@@ -1,4 +1,4 @@
-package com.talk2amareswaran.projects.resourceserver;
+package com.golikova.projects.resourceserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

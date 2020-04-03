@@ -1,4 +1,4 @@
-package com.talk2amareswaran.projects.resourceserver.model;
+package com.golikova.projects.resourceserver.model;
 
 public class AccessTokenMapper {
 
