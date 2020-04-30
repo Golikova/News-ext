@@ -2,18 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb738dd-284a-4fcb-b802-eeea45927c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../statistics/libs/textmf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/apiCallers/WikiSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/ResourceserverApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/config/JwtConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/config/SecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/model/AccessTokenMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/model/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/model/UserData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/rest/NoteServiceController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/golikova/projects/resourceserver/rest/NoteServiceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/model/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statistics/allnodes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statistics/nodes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/model/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statistics/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authserver/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../authserver/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authserver/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../authserver/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authserver/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../authserver/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/apiCallers/GoogleSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/apiCallers/GoogleSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/apiCallers/VKSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/apiCallers/VKSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/controller/MappingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/controller/MappingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/parsers/TwitterParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/parsers/TwitterParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/parsers/YandexParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/parsers/YandexParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/util/QryTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/java/chrome_extencion/util/QryTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/src/main/resources/conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/src/main/resources/conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/apiCallers/GoogleSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/apiCallers/GoogleSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/apiCallers/VKSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/apiCallers/VKSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/controller/MappingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/controller/MappingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/parsers/TwitterParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/parsers/TwitterParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/parsers/YandexParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/parsers/YandexParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/util/QryTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/chrome_extencion/util/QryTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/target/classes/conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/target/classes/conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/ResourceserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/ResourceserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/config/JwtConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/config/JwtConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/model/AccessTokenMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/model/AccessTokenMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/model/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/talk2amareswaran/projects/resourceserver/rest/NoteServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/rest/NoteServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/ResourceserverApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/config/JwtConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/config/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/model/AccessTokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/model/UserData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/talk2amareswaran/projects/resourceserver/rest/NoteServiceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/rest/NoteServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/golikova/projects/resourceserver/rest/NoteServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../statistics/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../statistics/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/DBSerfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/DBSerfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/StatisticsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../statistics/src/main/java/com/example/golikova/statistics/StatisticsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../statistics/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../statistics/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../statistics/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +96,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../statistics" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ResourceserverApplication (1)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.golikova.projects.resourceserver.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ResourceserverApplication">
     <configuration name="ResourceserverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="resourceserver.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.golikova.projects.resourceserver.ResourceserverApplication" />
@@ -63,11 +116,16 @@
     </configuration>
     <configuration name="ResourceserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="resourceserver.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.talk2amareswaran.projects.resourceserver.ResourceserverApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.golikova.projects.resourceserver.ResourceserverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ResourceserverApplication" />
+      <item itemvalue="Spring Boot.ResourceserverApplication (1)" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -96,7 +154,14 @@
       <workItem from="1584693730263" duration="8135000" />
       <workItem from="1584707510139" duration="2031000" />
       <workItem from="1585905681239" duration="1949000" />
-      <workItem from="1585915406377" duration="2725000" />
+      <workItem from="1585915406377" duration="3760000" />
+      <workItem from="1585925313992" duration="1603000" />
+      <workItem from="1585999659331" duration="2120000" />
+      <workItem from="1586167887481" duration="138000" />
+      <workItem from="1586168053204" duration="2739000" />
+      <workItem from="1586515469853" duration="4517000" />
+      <workItem from="1586849536106" duration="1826000" />
+      <workItem from="1588232764593" duration="2226000" />
     </task>
     <servers />
   </component>
@@ -104,41 +169,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="278" width="426" height="490" key="FileChooserDialogImpl" timestamp="1584713994308">
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585925693659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="278" width="426" height="490" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584713994308" />
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1585914301143">
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585925693659" />
+    <state x="743" y="278" width="426" height="490" key="FileChooserDialogImpl" timestamp="1586519396251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301143" />
-    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1585914301142">
+    <state x="743" y="278" width="426" height="490" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586519396251" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom" timestamp="1588238284439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301142" />
-    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1585914301142">
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284439" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center" timestamp="1588238284438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301142" />
-    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1585914301142">
+    <state width="1878" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284438" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left" timestamp="1588238284438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301142" />
-    <state width="1878" height="273" key="GridCell.Tab.1.bottom" timestamp="1585914301144">
+    <state width="1878" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284438" />
+    <state width="1878" height="251" key="GridCell.Tab.0.right" timestamp="1588238284438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301144" />
-    <state width="1878" height="273" key="GridCell.Tab.1.center" timestamp="1585914301143">
+    <state width="1878" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284438" />
+    <state width="1878" height="251" key="GridCell.Tab.1.bottom" timestamp="1588238284439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301143" />
-    <state width="1878" height="273" key="GridCell.Tab.1.left" timestamp="1585914301143">
+    <state width="1878" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284439" />
+    <state width="1878" height="251" key="GridCell.Tab.1.center" timestamp="1588238284439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301143" />
-    <state width="1878" height="273" key="GridCell.Tab.1.right" timestamp="1585914301143">
+    <state width="1878" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284439" />
+    <state width="1878" height="251" key="GridCell.Tab.1.left" timestamp="1588238284439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="273" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585914301143" />
+    <state width="1878" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284439" />
+    <state width="1878" height="251" key="GridCell.Tab.1.right" timestamp="1588238284439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588238284439" />
+    <state x="443" y="98" width="1026" height="851" key="SettingsEditor" timestamp="1585922820152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="443" y="98" width="1026" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585922820152" />
+    <state x="639" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586850981537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586850981537" />
   </component>
 </project>

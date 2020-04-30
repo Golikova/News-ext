@@ -23,7 +23,7 @@ public class YandexParser implements  Parser {
     public WebPage getPage(String qry) throws IOException {
 
         qry = QryTools.removeSymbols(qry);
-        qry = QryTools.removeSpaces(qry);
+        qry = QryTools.replaceSpaces(qry);
 
         String url = "https://yandex.ru/search/?text=" + qry;
         String html = Jsoup.connect(url).get().html();

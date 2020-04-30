@@ -21,7 +21,7 @@ public class VKSearcher implements Searcher {
         String key="27ae80b827ae80b827ae80b86c27deb019227ae27ae80b879c9b26d410dec2eb322bd69";
 
         qry = QryTools.removeSymbols(qry);
-        qry = QryTools.removeSpaces(qry);
+        qry = QryTools.replaceSpaces(qry);
 
         URL url = new URL("https://api.vk.com/method/newsfeed.search?count=10&access_token="+
                 key +

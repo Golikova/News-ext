@@ -19,12 +19,37 @@ public class QryTools {
         return result.toString();
     }
 
-    public static String removeSpaces(String str) {
+    public static String replaceSpaces(String str) {
         StringBuilder result = new StringBuilder(str.length());
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             if (Character.isSpaceChar(c)) {
                 result.append('+');
+            }
+            else result.append(c);
+        }
+        return result.toString();
+    }
+
+    public static String replaceSpacesPercent(String str) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (Character.isSpaceChar(c)) {
+                result.append("%20");
+            }
+            else result.append(c);
+        }
+
+        return result.toString();
+    }
+
+    public static String replaceSpacesUnderscore(String str) {
+        StringBuilder result = new StringBuilder(str.length());
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (Character.isSpaceChar(c)) {
+                result.append("_");
             }
             else result.append(c);
         }

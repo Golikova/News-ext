@@ -21,7 +21,7 @@ public class GoogleSearcher implements Searcher {
         String key="AIzaSyAh4kZtXYIC0DBL1KKlYaYcZ6vIfqutJSI";
 
         qry = QryTools.removeSymbols(qry);
-        qry = QryTools.removeSpaces(qry);
+        qry = QryTools.replaceSpaces(qry);
 
         URL url = new URL("https://www.googleapis.com/customsearch/v1?key="+key+ "&cx=013036536707430787589:_pqjad5hr1a&q="+ qry + "&alt=json&sort=date:a:s");
 
@@ -47,7 +47,7 @@ public class GoogleSearcher implements Searcher {
         String key="AIzaSyAh4kZtXYIC0DBL1KKlYaYcZ6vIfqutJSI";
 
         qry = QryTools.removeSymbols(qry);
-        qry = QryTools.removeSpaces(qry);
+        qry = QryTools.replaceSpaces(qry);
 
         URL url = new URL("https://www.googleapis.com/customsearch/v1?key="+key+ "&cx=013036536707430787589:_pqjad5hr1a&q="+ qry + "&alt=json&sort=date:a:s");
 

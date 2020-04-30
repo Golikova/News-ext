@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="googleSearcher" class="chrome_extencion.apiCallers.GoogleSearcher" />
-    <bean id="twitterSearcher" class="chrome_extencion.parsers.TwitterParser" />
+    <bean id="wikiSearcher" class="chrome_extencion.apiCallers.WikiSearcher" />
     <bean id="vkSearcher" class="chrome_extencion.apiCallers.VKSearcher" />
     <bean id="yandexSearcher" class="chrome_extencion.parsers.YandexParser" />
 

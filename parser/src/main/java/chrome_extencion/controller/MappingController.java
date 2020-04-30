@@ -27,7 +27,7 @@ import java.util.ArrayList;
 public class MappingController {
 
     @RequestMapping(value = "/greeting", method = RequestMethod.POST,  consumes= MediaType.APPLICATION_JSON_VALUE)
-    public String getPage(@RequestBody UserData userData) throws IOException, JSONException, ParserConfigurationException, SAXException {
+    public String getData(@RequestBody UserData userData) throws IOException, JSONException, ParserConfigurationException, SAXException {
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("conf.xml");
 
